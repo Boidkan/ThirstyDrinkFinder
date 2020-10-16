@@ -1,0 +1,6 @@
+framework module Pods_ThirstyDrinkFinder {
+  umbrella header "Pods-ThirstyDrinkFinder-umbrella.h"
+
+  export *
+  module * { export * }
+}
