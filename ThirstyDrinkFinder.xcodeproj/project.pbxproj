@@ -3,14 +3,22 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2E1C61C5253925E6008DBC72 /* TDFDrinkTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E1C61C4253925E6008DBC72 /* TDFDrinkTableViewCell.swift */; };
+		2E1C61C825392884008DBC72 /* TDFNetworkingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E1C61C725392884008DBC72 /* TDFNetworkingService.swift */; };
+		2E1C61CB253928E9008DBC72 /* TDFDrinksPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E1C61CA253928E9008DBC72 /* TDFDrinksPresenter.swift */; };
+		2E1C61CD2539291A008DBC72 /* TDFCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E1C61CC2539291A008DBC72 /* TDFCoordinator.swift */; };
+		2E1C61D025392B7C008DBC72 /* TDFPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E1C61CF25392B7C008DBC72 /* TDFPresenter.swift */; };
+		2E1C61D225392CD7008DBC72 /* TDFView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E1C61D125392CD7008DBC72 /* TDFView.swift */; };
+		2E1C61D425393227008DBC72 /* TDFStoryboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E1C61D325393227008DBC72 /* TDFStoryboardView.swift */; };
+		2E1C61D6253932DB008DBC72 /* TDFAppController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E1C61D5253932DB008DBC72 /* TDFAppController.swift */; };
 		2EA6DB33253920870028C6F7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EA6DB32253920870028C6F7 /* AppDelegate.swift */; };
 		2EA6DB35253920870028C6F7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EA6DB34253920870028C6F7 /* SceneDelegate.swift */; };
-		2EA6DB37253920870028C6F7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EA6DB36253920870028C6F7 /* ViewController.swift */; };
-		2EA6DB3A253920870028C6F7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2EA6DB38253920870028C6F7 /* Main.storyboard */; };
+		2EA6DB37253920870028C6F7 /* TDFDrinksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EA6DB36253920870028C6F7 /* TDFDrinksViewController.swift */; };
+		2EA6DB3A253920870028C6F7 /* Thirsty.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2EA6DB38253920870028C6F7 /* Thirsty.storyboard */; };
 		2EA6DB3C2539208A0028C6F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2EA6DB3B2539208A0028C6F7 /* Assets.xcassets */; };
 		2EA6DB3F2539208A0028C6F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2EA6DB3D2539208A0028C6F7 /* LaunchScreen.storyboard */; };
 		2EA6DB4A2539208A0028C6F7 /* ThirstyDrinkFinderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EA6DB492539208A0028C6F7 /* ThirstyDrinkFinderTests.swift */; };
@@ -40,11 +48,19 @@
 /* Begin PBXFileReference section */
 		05BEACFCC6658849FA51EC32 /* Pods-ThirstyDrinkFinderTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThirstyDrinkFinderTests.debug.xcconfig"; path = "Target Support Files/Pods-ThirstyDrinkFinderTests/Pods-ThirstyDrinkFinderTests.debug.xcconfig"; sourceTree = "<group>"; };
 		16A155A3AFF2BEA8118BF456 /* Pods_ThirstyDrinkFinderTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ThirstyDrinkFinderTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E1C61C4253925E6008DBC72 /* TDFDrinkTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TDFDrinkTableViewCell.swift; sourceTree = "<group>"; };
+		2E1C61C725392884008DBC72 /* TDFNetworkingService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TDFNetworkingService.swift; path = ThirstyDrinkFinder/TDFNetworkingService.swift; sourceTree = SOURCE_ROOT; };
+		2E1C61CA253928E9008DBC72 /* TDFDrinksPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TDFDrinksPresenter.swift; sourceTree = "<group>"; };
+		2E1C61CC2539291A008DBC72 /* TDFCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TDFCoordinator.swift; sourceTree = "<group>"; };
+		2E1C61CF25392B7C008DBC72 /* TDFPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TDFPresenter.swift; sourceTree = "<group>"; };
+		2E1C61D125392CD7008DBC72 /* TDFView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TDFView.swift; sourceTree = "<group>"; };
+		2E1C61D325393227008DBC72 /* TDFStoryboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TDFStoryboardView.swift; sourceTree = "<group>"; };
+		2E1C61D5253932DB008DBC72 /* TDFAppController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TDFAppController.swift; sourceTree = "<group>"; };
 		2EA6DB2F253920870028C6F7 /* ThirstyDrinkFinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThirstyDrinkFinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2EA6DB32253920870028C6F7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2EA6DB34253920870028C6F7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		2EA6DB36253920870028C6F7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		2EA6DB39253920870028C6F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2EA6DB36253920870028C6F7 /* TDFDrinksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TDFDrinksViewController.swift; sourceTree = "<group>"; };
+		2EA6DB39253920870028C6F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Thirsty.storyboard; sourceTree = "<group>"; };
 		2EA6DB3B2539208A0028C6F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2EA6DB3E2539208A0028C6F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2EA6DB402539208A0028C6F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -91,6 +107,43 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2E1C61C3253925B7008DBC72 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				2E1C61D325393227008DBC72 /* TDFStoryboardView.swift */,
+				2E1C61CF25392B7C008DBC72 /* TDFPresenter.swift */,
+				2E1C61D125392CD7008DBC72 /* TDFView.swift */,
+				2E1C61C9253928C4008DBC72 /* Drinks List */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		2E1C61C625392861008DBC72 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				2E1C61C725392884008DBC72 /* TDFNetworkingService.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		2E1C61C9253928C4008DBC72 /* Drinks List */ = {
+			isa = PBXGroup;
+			children = (
+				2EA6DB36253920870028C6F7 /* TDFDrinksViewController.swift */,
+				2E1C61C4253925E6008DBC72 /* TDFDrinkTableViewCell.swift */,
+				2E1C61CA253928E9008DBC72 /* TDFDrinksPresenter.swift */,
+			);
+			path = "Drinks List";
+			sourceTree = "<group>";
+		};
+		2E1C61CE25392921008DBC72 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				2E1C61CC2539291A008DBC72 /* TDFCoordinator.swift */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
 		2EA6DB26253920870028C6F7 = {
 			isa = PBXGroup;
 			children = (
@@ -117,9 +170,12 @@
 			isa = PBXGroup;
 			children = (
 				2EA6DB32253920870028C6F7 /* AppDelegate.swift */,
+				2E1C61D5253932DB008DBC72 /* TDFAppController.swift */,
 				2EA6DB34253920870028C6F7 /* SceneDelegate.swift */,
-				2EA6DB36253920870028C6F7 /* ViewController.swift */,
-				2EA6DB38253920870028C6F7 /* Main.storyboard */,
+				2E1C61CE25392921008DBC72 /* Navigation */,
+				2E1C61C625392861008DBC72 /* Networking */,
+				2E1C61C3253925B7008DBC72 /* UI */,
+				2EA6DB38253920870028C6F7 /* Thirsty.storyboard */,
 				2EA6DB3B2539208A0028C6F7 /* Assets.xcassets */,
 				2EA6DB3D2539208A0028C6F7 /* LaunchScreen.storyboard */,
 				2EA6DB402539208A0028C6F7 /* Info.plist */,
@@ -165,7 +221,6 @@
 				37F7CAC8C07D7B94D55A839A /* Pods-ThirstyDrinkFinderUITests.debug.xcconfig */,
 				4CAAFB4DEB9FEF39E4377D26 /* Pods-ThirstyDrinkFinderUITests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -279,7 +334,7 @@
 			files = (
 				2EA6DB3F2539208A0028C6F7 /* LaunchScreen.storyboard in Resources */,
 				2EA6DB3C2539208A0028C6F7 /* Assets.xcassets in Resources */,
-				2EA6DB3A253920870028C6F7 /* Main.storyboard in Resources */,
+				2EA6DB3A253920870028C6F7 /* Thirsty.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -390,9 +445,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2EA6DB37253920870028C6F7 /* ViewController.swift in Sources */,
+				2EA6DB37253920870028C6F7 /* TDFDrinksViewController.swift in Sources */,
+				2E1C61D6253932DB008DBC72 /* TDFAppController.swift in Sources */,
 				2EA6DB33253920870028C6F7 /* AppDelegate.swift in Sources */,
 				2EA6DB35253920870028C6F7 /* SceneDelegate.swift in Sources */,
+				2E1C61CD2539291A008DBC72 /* TDFCoordinator.swift in Sources */,
+				2E1C61D225392CD7008DBC72 /* TDFView.swift in Sources */,
+				2E1C61C825392884008DBC72 /* TDFNetworkingService.swift in Sources */,
+				2E1C61CB253928E9008DBC72 /* TDFDrinksPresenter.swift in Sources */,
+				2E1C61C5253925E6008DBC72 /* TDFDrinkTableViewCell.swift in Sources */,
+				2E1C61D025392B7C008DBC72 /* TDFPresenter.swift in Sources */,
+				2E1C61D425393227008DBC72 /* TDFStoryboardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,12 +491,12 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		2EA6DB38253920870028C6F7 /* Main.storyboard */ = {
+		2EA6DB38253920870028C6F7 /* Thirsty.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				2EA6DB39253920870028C6F7 /* Base */,
 			);
-			name = Main.storyboard;
+			name = Thirsty.storyboard;
 			sourceTree = "<group>";
 		};
 		2EA6DB3D2539208A0028C6F7 /* LaunchScreen.storyboard */ = {

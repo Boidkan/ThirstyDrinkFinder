@@ -1,5 +1,5 @@
 //
-//  AppDelegate.swift
+//  TDFViewController.swift
 //  ThirstyDrinkFinder
 //
 //  Created by Eric Collom on 10/15/20.
@@ -8,9 +8,7 @@
 
 import UIKit
 
-@UIApplicationMain
-class AppDelegate: UIResponder, UIApplicationDelegate {
-
-    
+protocol TDFPresenter: class {
+    var coordinator: TDFCoordinator? { get set }
+    var view: TDFView? { get set }
 }
-
