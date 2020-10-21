@@ -10,15 +10,16 @@ import UIKit
 
 class TDFDrinkTableViewCell: UITableViewCell {
     @IBOutlet weak var drinkName: UILabel!
-    @IBOutlet weak var drinkThumbnail: UIImageView!
+    @IBOutlet weak var drinkThumbnail: TDFRoundedImageView!
     
     override func awakeFromNib() {
         super.awakeFromNib()
-        // Initialization code
+        self.selectionStyle = .none
     }
-
-    override func setSelected(_ selected: Bool, animated: Bool) {
-        super.setSelected(selected, animated: animated)
+    
+    func load(_ drink: TDFDrink) {
+        self.drinkName.text = drink.name
+        self.drinkThumbnail.image = drink.image
     }
 
 }

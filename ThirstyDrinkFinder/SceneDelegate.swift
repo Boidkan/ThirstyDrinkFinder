@@ -15,6 +15,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
         let navController = UINavigationController()
+        
         coordinator = TDFMasterCoordinator(navigationController: navController)
         coordinator?.start()
         guard let windowScene = (scene as? UIWindowScene) else { return }

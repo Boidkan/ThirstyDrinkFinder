@@ -12,6 +12,8 @@ import UIKit
 protocol TDFCoordinator {
     var children: [TDFCoordinator] { get set }
     var navigationController: UINavigationController { get set }
+    func start()
+    func navigateToDrinkView(for drink: TDFDrink)
 }
 
 class TDFMasterCoordinator: TDFCoordinator {
@@ -24,14 +26,24 @@ class TDFMasterCoordinator: TDFCoordinator {
     }
 
     func start() {
-
-        let presenter = TDFDrinksPresenter()
-        presenter.coordinator = self
-
-        let vc = TDFDrinksViewController.instantiate()
+        let presenter = TDFDrinkListPresenter(networkingService: TDFNetworkingService(),
+                                              coordinator: self)
+        
+        let vc = TDFDrinkListViewController.instantiate()
         vc.presenter = presenter
-
+        presenter.view = vc
 
         navigationController.pushViewController(vc, animated: false)
+    }
+    
+    func navigateToDrinkView(for drink: TDFDrink) {
+        let vc = TDFDrinkViewController.instantiate()
+        let presenter =  TDFDrinkPresenter(with: drink)
+        
+        vc.presenter = presenter
+        presenter.view = vc
+        
+        vc.navigationItem.title = drink.name
+        navigationController.pushViewController(vc, animated: true)
     }
 }

@@ -9,15 +9,28 @@
 /* Begin PBXBuildFile section */
 		2E1C61C5253925E6008DBC72 /* TDFDrinkTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E1C61C4253925E6008DBC72 /* TDFDrinkTableViewCell.swift */; };
 		2E1C61C825392884008DBC72 /* TDFNetworkingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E1C61C725392884008DBC72 /* TDFNetworkingService.swift */; };
-		2E1C61CB253928E9008DBC72 /* TDFDrinksPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E1C61CA253928E9008DBC72 /* TDFDrinksPresenter.swift */; };
+		2E1C61CB253928E9008DBC72 /* TDFDrinkListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E1C61CA253928E9008DBC72 /* TDFDrinkListPresenter.swift */; };
 		2E1C61CD2539291A008DBC72 /* TDFCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E1C61CC2539291A008DBC72 /* TDFCoordinator.swift */; };
 		2E1C61D025392B7C008DBC72 /* TDFPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E1C61CF25392B7C008DBC72 /* TDFPresenter.swift */; };
 		2E1C61D225392CD7008DBC72 /* TDFView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E1C61D125392CD7008DBC72 /* TDFView.swift */; };
 		2E1C61D425393227008DBC72 /* TDFStoryboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E1C61D325393227008DBC72 /* TDFStoryboardView.swift */; };
 		2E1C61D6253932DB008DBC72 /* TDFAppController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E1C61D5253932DB008DBC72 /* TDFAppController.swift */; };
+		2E1C61D9253959DC008DBC72 /* TDFDrinkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E1C61D8253959DC008DBC72 /* TDFDrinkViewController.swift */; };
+		2E22A27F253E1E2000808046 /* TDFDrink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E22A27E253E1E2000808046 /* TDFDrink.swift */; };
+		2E22A281253E5B8E00808046 /* TDFDrinkPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E22A280253E5B8E00808046 /* TDFDrinkPresenter.swift */; };
+		2E22A283253E6B8400808046 /* TDFRoundedImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E22A282253E6B8400808046 /* TDFRoundedImageView.swift */; };
+		2E22A285253F1B1200808046 /* TDFDrinkHeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E22A284253F1B1200808046 /* TDFDrinkHeaderCell.swift */; };
+		2E22A287253F1B3200808046 /* TDFIngredientsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E22A286253F1B3200808046 /* TDFIngredientsCell.swift */; };
+		2E425C79253F2508003BE26D /* TDFIngredientStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E425C78253F2508003BE26D /* TDFIngredientStackView.swift */; };
+		2E425C7B253F2642003BE26D /* UIColor+Pastels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E425C7A253F2642003BE26D /* UIColor+Pastels.swift */; };
+		2E425C7E253F58A3003BE26D /* PieChartView+TDFIngredients.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E425C7D253F58A3003BE26D /* PieChartView+TDFIngredients.swift */; };
+		2E425C80253F5922003BE26D /* TDFIngredientViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E425C7F253F5922003BE26D /* TDFIngredientViewModel.swift */; };
+		2E425C82253F5A34003BE26D /* TDFMeasurementUnits.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E425C81253F5A34003BE26D /* TDFMeasurementUnits.swift */; };
+		2E425C84253F5B2C003BE26D /* TDFMeasurement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E425C83253F5B2C003BE26D /* TDFMeasurement.swift */; };
+		2E425C86253F5F42003BE26D /* String+Substrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E425C85253F5F42003BE26D /* String+Substrings.swift */; };
 		2EA6DB33253920870028C6F7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EA6DB32253920870028C6F7 /* AppDelegate.swift */; };
 		2EA6DB35253920870028C6F7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EA6DB34253920870028C6F7 /* SceneDelegate.swift */; };
-		2EA6DB37253920870028C6F7 /* TDFDrinksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EA6DB36253920870028C6F7 /* TDFDrinksViewController.swift */; };
+		2EA6DB37253920870028C6F7 /* TDFDrinkListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EA6DB36253920870028C6F7 /* TDFDrinkListViewController.swift */; };
 		2EA6DB3A253920870028C6F7 /* Thirsty.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2EA6DB38253920870028C6F7 /* Thirsty.storyboard */; };
 		2EA6DB3C2539208A0028C6F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2EA6DB3B2539208A0028C6F7 /* Assets.xcassets */; };
 		2EA6DB3F2539208A0028C6F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2EA6DB3D2539208A0028C6F7 /* LaunchScreen.storyboard */; };
@@ -50,16 +63,29 @@
 		16A155A3AFF2BEA8118BF456 /* Pods_ThirstyDrinkFinderTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ThirstyDrinkFinderTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E1C61C4253925E6008DBC72 /* TDFDrinkTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TDFDrinkTableViewCell.swift; sourceTree = "<group>"; };
 		2E1C61C725392884008DBC72 /* TDFNetworkingService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TDFNetworkingService.swift; path = ThirstyDrinkFinder/TDFNetworkingService.swift; sourceTree = SOURCE_ROOT; };
-		2E1C61CA253928E9008DBC72 /* TDFDrinksPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TDFDrinksPresenter.swift; sourceTree = "<group>"; };
+		2E1C61CA253928E9008DBC72 /* TDFDrinkListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TDFDrinkListPresenter.swift; sourceTree = "<group>"; };
 		2E1C61CC2539291A008DBC72 /* TDFCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TDFCoordinator.swift; sourceTree = "<group>"; };
 		2E1C61CF25392B7C008DBC72 /* TDFPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TDFPresenter.swift; sourceTree = "<group>"; };
 		2E1C61D125392CD7008DBC72 /* TDFView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TDFView.swift; sourceTree = "<group>"; };
 		2E1C61D325393227008DBC72 /* TDFStoryboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TDFStoryboardView.swift; sourceTree = "<group>"; };
 		2E1C61D5253932DB008DBC72 /* TDFAppController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TDFAppController.swift; sourceTree = "<group>"; };
+		2E1C61D8253959DC008DBC72 /* TDFDrinkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TDFDrinkViewController.swift; sourceTree = "<group>"; };
+		2E22A27E253E1E2000808046 /* TDFDrink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TDFDrink.swift; sourceTree = "<group>"; };
+		2E22A280253E5B8E00808046 /* TDFDrinkPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TDFDrinkPresenter.swift; sourceTree = "<group>"; };
+		2E22A282253E6B8400808046 /* TDFRoundedImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TDFRoundedImageView.swift; sourceTree = "<group>"; };
+		2E22A284253F1B1200808046 /* TDFDrinkHeaderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TDFDrinkHeaderCell.swift; sourceTree = "<group>"; };
+		2E22A286253F1B3200808046 /* TDFIngredientsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TDFIngredientsCell.swift; sourceTree = "<group>"; };
+		2E425C78253F2508003BE26D /* TDFIngredientStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TDFIngredientStackView.swift; sourceTree = "<group>"; };
+		2E425C7A253F2642003BE26D /* UIColor+Pastels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Pastels.swift"; sourceTree = "<group>"; };
+		2E425C7D253F58A3003BE26D /* PieChartView+TDFIngredients.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PieChartView+TDFIngredients.swift"; sourceTree = "<group>"; };
+		2E425C7F253F5922003BE26D /* TDFIngredientViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TDFIngredientViewModel.swift; sourceTree = "<group>"; };
+		2E425C81253F5A34003BE26D /* TDFMeasurementUnits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TDFMeasurementUnits.swift; sourceTree = "<group>"; };
+		2E425C83253F5B2C003BE26D /* TDFMeasurement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TDFMeasurement.swift; sourceTree = "<group>"; };
+		2E425C85253F5F42003BE26D /* String+Substrings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Substrings.swift"; sourceTree = "<group>"; };
 		2EA6DB2F253920870028C6F7 /* ThirstyDrinkFinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThirstyDrinkFinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2EA6DB32253920870028C6F7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2EA6DB34253920870028C6F7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		2EA6DB36253920870028C6F7 /* TDFDrinksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TDFDrinksViewController.swift; sourceTree = "<group>"; };
+		2EA6DB36253920870028C6F7 /* TDFDrinkListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TDFDrinkListViewController.swift; sourceTree = "<group>"; };
 		2EA6DB39253920870028C6F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Thirsty.storyboard; sourceTree = "<group>"; };
 		2EA6DB3B2539208A0028C6F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2EA6DB3E2539208A0028C6F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -113,7 +139,11 @@
 				2E1C61D325393227008DBC72 /* TDFStoryboardView.swift */,
 				2E1C61CF25392B7C008DBC72 /* TDFPresenter.swift */,
 				2E1C61D125392CD7008DBC72 /* TDFView.swift */,
-				2E1C61C9253928C4008DBC72 /* Drinks List */,
+				2E22A282253E6B8400808046 /* TDFRoundedImageView.swift */,
+				2E425C7A253F2642003BE26D /* UIColor+Pastels.swift */,
+				2E1C61C9253928C4008DBC72 /* Drink List VC */,
+				2E1C61D725395953008DBC72 /* Drink VC */,
+				2E425C87253F8F10003BE26D /* Extensions */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -122,18 +152,22 @@
 			isa = PBXGroup;
 			children = (
 				2E1C61C725392884008DBC72 /* TDFNetworkingService.swift */,
+				2E22A27E253E1E2000808046 /* TDFDrink.swift */,
+				2E425C7F253F5922003BE26D /* TDFIngredientViewModel.swift */,
+				2E425C81253F5A34003BE26D /* TDFMeasurementUnits.swift */,
+				2E425C83253F5B2C003BE26D /* TDFMeasurement.swift */,
 			);
 			path = Networking;
 			sourceTree = "<group>";
 		};
-		2E1C61C9253928C4008DBC72 /* Drinks List */ = {
+		2E1C61C9253928C4008DBC72 /* Drink List VC */ = {
 			isa = PBXGroup;
 			children = (
-				2EA6DB36253920870028C6F7 /* TDFDrinksViewController.swift */,
+				2EA6DB36253920870028C6F7 /* TDFDrinkListViewController.swift */,
 				2E1C61C4253925E6008DBC72 /* TDFDrinkTableViewCell.swift */,
-				2E1C61CA253928E9008DBC72 /* TDFDrinksPresenter.swift */,
+				2E1C61CA253928E9008DBC72 /* TDFDrinkListPresenter.swift */,
 			);
-			path = "Drinks List";
+			path = "Drink List VC";
 			sourceTree = "<group>";
 		};
 		2E1C61CE25392921008DBC72 /* Navigation */ = {
@@ -142,6 +176,27 @@
 				2E1C61CC2539291A008DBC72 /* TDFCoordinator.swift */,
 			);
 			path = Navigation;
+			sourceTree = "<group>";
+		};
+		2E1C61D725395953008DBC72 /* Drink VC */ = {
+			isa = PBXGroup;
+			children = (
+				2E1C61D8253959DC008DBC72 /* TDFDrinkViewController.swift */,
+				2E22A280253E5B8E00808046 /* TDFDrinkPresenter.swift */,
+				2E22A284253F1B1200808046 /* TDFDrinkHeaderCell.swift */,
+				2E22A286253F1B3200808046 /* TDFIngredientsCell.swift */,
+				2E425C78253F2508003BE26D /* TDFIngredientStackView.swift */,
+				2E425C7D253F58A3003BE26D /* PieChartView+TDFIngredients.swift */,
+			);
+			path = "Drink VC";
+			sourceTree = "<group>";
+		};
+		2E425C87253F8F10003BE26D /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				2E425C85253F5F42003BE26D /* String+Substrings.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 		2EA6DB26253920870028C6F7 = {
@@ -445,17 +500,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2EA6DB37253920870028C6F7 /* TDFDrinksViewController.swift in Sources */,
+				2E425C86253F5F42003BE26D /* String+Substrings.swift in Sources */,
+				2E1C61D9253959DC008DBC72 /* TDFDrinkViewController.swift in Sources */,
+				2E425C84253F5B2C003BE26D /* TDFMeasurement.swift in Sources */,
+				2EA6DB37253920870028C6F7 /* TDFDrinkListViewController.swift in Sources */,
+				2E22A285253F1B1200808046 /* TDFDrinkHeaderCell.swift in Sources */,
+				2E425C79253F2508003BE26D /* TDFIngredientStackView.swift in Sources */,
 				2E1C61D6253932DB008DBC72 /* TDFAppController.swift in Sources */,
+				2E22A287253F1B3200808046 /* TDFIngredientsCell.swift in Sources */,
 				2EA6DB33253920870028C6F7 /* AppDelegate.swift in Sources */,
+				2E22A281253E5B8E00808046 /* TDFDrinkPresenter.swift in Sources */,
+				2E22A27F253E1E2000808046 /* TDFDrink.swift in Sources */,
 				2EA6DB35253920870028C6F7 /* SceneDelegate.swift in Sources */,
 				2E1C61CD2539291A008DBC72 /* TDFCoordinator.swift in Sources */,
 				2E1C61D225392CD7008DBC72 /* TDFView.swift in Sources */,
 				2E1C61C825392884008DBC72 /* TDFNetworkingService.swift in Sources */,
-				2E1C61CB253928E9008DBC72 /* TDFDrinksPresenter.swift in Sources */,
+				2E1C61CB253928E9008DBC72 /* TDFDrinkListPresenter.swift in Sources */,
 				2E1C61C5253925E6008DBC72 /* TDFDrinkTableViewCell.swift in Sources */,
+				2E425C82253F5A34003BE26D /* TDFMeasurementUnits.swift in Sources */,
 				2E1C61D025392B7C008DBC72 /* TDFPresenter.swift in Sources */,
+				2E425C7E253F58A3003BE26D /* PieChartView+TDFIngredients.swift in Sources */,
+				2E22A283253E6B8400808046 /* TDFRoundedImageView.swift in Sources */,
+				2E425C80253F5922003BE26D /* TDFIngredientViewModel.swift in Sources */,
 				2E1C61D425393227008DBC72 /* TDFStoryboardView.swift in Sources */,
+				2E425C7B253F2642003BE26D /* UIColor+Pastels.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
