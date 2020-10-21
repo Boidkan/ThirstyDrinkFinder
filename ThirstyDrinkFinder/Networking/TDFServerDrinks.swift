@@ -1,29 +1,12 @@
 //
-//  TDFDrink.swift
+//  TDFServerDrinks.swift
 //  ThirstyDrinkFinder
 //
-//  Created by Eric Collom on 10/19/20.
+//  Created by Eric Collom on 10/21/20.
 //  Copyright © 2020 Eric Collom. All rights reserved.
 //
 
-import UIKit
-
-
-struct TDFDrink {
-    var id: String
-    var name: String
-    var instructions: String
-    var image: UIImage
-    var ingredients: [TDFIngredient]
-    
-    init(serverDrink: TDFServerDrink, image: UIImage) {
-        self.id = serverDrink.id
-        self.name = serverDrink.name
-        self.ingredients = serverDrink.ingredients
-        self.instructions = serverDrink.instructions
-        self.image = image
-    }
-}
+import Foundation
 
 struct TDFServerDrinks: Decodable {
     var drinks: [TDFServerDrink]?
@@ -123,20 +106,5 @@ struct TDFServerDrink: Decodable {
          TDFIngredient(name: strIngredient14, measurement: strMeasure14),
          TDFIngredient(name: strIngredient15, measurement: strMeasure15)
             ].compactMap { $0 }
-    }
-}
-
-struct TDFIngredient: Decodable {
-    var name: String
-    var measurement: String
-    
-    init?(name: String?, measurement: String?) {
-        guard let name = name,
-            let measurement = measurement else {
-                return nil
-        }
-        
-        self.name = name
-        self.measurement = measurement
     }
 }
